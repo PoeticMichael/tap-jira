@@ -296,6 +296,7 @@ class Client():
     def test_pat_credentials_are_authorized(self):
         # Make a call to myself endpoint for verify creds
         self.request("test", "GET", "/rest/api/2/myself")
+        self.is_on_prem_instance = True
 
 class Paginator():
     def __init__(self, client, page_num=0, order_by=None, items_key="values"):
