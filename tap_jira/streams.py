@@ -199,9 +199,12 @@ class Projects(Stream):
                     VERSIONS.write_page(page)
         if Context.is_selected(COMPONENTS.tap_stream_id):
             for project in projects:
+                params = {
+                    "maxResults": DEFAULT_PAGE_SIZE, # maximum number of results to fetch in a page.
+                }
                 path = "/rest/api/2/project/{}/components".format(project["id"])
                 pager = Paginator(Context.client, items_key=None)
-                for page in pager.pages(COMPONENTS.tap_stream_id, "GET", path):
+                for page in pager.pages(COMPONENTS.tap_stream_id, "GET", path, params=params):
                     COMPONENTS.write_page(page)
 
     def sync_cloud(self):
