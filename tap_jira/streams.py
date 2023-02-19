@@ -199,7 +199,7 @@ class Projects(Stream):
                     VERSIONS.write_page(page)
         if Context.is_selected(COMPONENTS.tap_stream_id):
             for project in projects:
-                path = "/rest/api/2/project/{}/component".format(project["id"])
+                path = "/rest/api/2/project/{}/components".format(project["id"])
                 pager = Paginator(Context.client)
                 for page in pager.pages(COMPONENTS.tap_stream_id, "GET", path):
                     COMPONENTS.write_page(page)
@@ -236,7 +236,7 @@ class Projects(Stream):
                         VERSIONS.write_page(page)
             if Context.is_selected(COMPONENTS.tap_stream_id):
                 for project in projects.get('values'):
-                    path = "/rest/api/2/project/{}/component".format(project["id"])
+                    path = "/rest/api/2/project/{}/components".format(project["id"])
                     pager = Paginator(Context.client)
                     for page in pager.pages(COMPONENTS.tap_stream_id, "GET", path):
                         COMPONENTS.write_page(page)
