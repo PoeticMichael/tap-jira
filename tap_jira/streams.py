@@ -200,7 +200,7 @@ class Projects(Stream):
         if Context.is_selected(COMPONENTS.tap_stream_id):
             for project in projects:
                 params = {
-                    "maxResults": DEFAULT_PAGE_SIZE, # maximum number of results to fetch in a page.
+                    "maxResults": 1000000, # This API doesn't support paging. Setting up practically inifinite page size
                 }
                 path = "/rest/api/2/project/{}/components".format(project["id"])
                 pager = Paginator(Context.client, items_key=None)
