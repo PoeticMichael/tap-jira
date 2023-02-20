@@ -56,8 +56,26 @@
             "null",
             "object"
           ],
-          "patternProperties": {
-            ".+": {
+          "properties": {
+            "48x48": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "24x24": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "16x16": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "32x32": {
               "type": [
                 "null",
                 "string"
