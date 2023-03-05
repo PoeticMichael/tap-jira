@@ -158,6 +158,53 @@
           ],
           "format": "date-time"
         },
+        "issuelinks": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {}
+        },
+        "components": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "title": "Components",
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "self": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "uri"
+              },
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "description": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        },
         "attachment": {
           "type": [
             "null",
