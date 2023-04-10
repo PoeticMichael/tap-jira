@@ -158,6 +158,12 @@
           ],
           "format": "date-time"
         },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "issuelinks": {
           "type": [
             "null",
