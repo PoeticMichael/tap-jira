@@ -158,6 +158,713 @@
           ],
           "format": "date-time"
         },
+        "issuetype": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "id":{
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "description": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "iconUrl": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name":{
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "subtask": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            },
+            "avatarId": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            }
+          }
+        },
+        "project": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "key": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "avatarUrls": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "48x48": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "24x24": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "16x16": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "32x32": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                }
+              }
+            },
+            "projectTypeKey": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "resolution": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "description": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "resolutionDate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "workratio": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "watches": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "watchCount": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "isWatching": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            }
+          }
+        },
+        "priority": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "iconUrl": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "labels": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "assignee": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "key": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "emailAddress": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "avatarUrls": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "48x48": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "24x24": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "16x16": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "32x32": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "displayName": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "active": {
+                  "type": [
+                    "null",
+                    "boolean"
+                  ]
+                },
+                "timeZone": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            },
+            "displayName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "active": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            },
+            "timeZone": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "status": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "description": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "iconUrl": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "statusCategory": {
+              "properties": {
+                "self": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                },
+                "key": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "colorName": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },  
+        "archiveddate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "summary": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "creator": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "key": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "emailAddress": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "avatarUrls": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "48x48": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "24x24": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "16x16": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "32x32": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+              },
+              "displayName": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "active": {
+                "type": [
+                  "null",
+                  "boolean"
+                ]
+              },
+              "timeZone": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            },
+            "displayName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "active": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            },
+            "timeZone": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "reporter": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "key": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "emailAddress": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "avatarUrls": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "48x48": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "24x24": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "16x16": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "32x32": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                }
+              }
+            },
+            "displayName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "active": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            },
+            "timeZone": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
+        "environment": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "votes": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "votes": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "hasVoted": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            }
+          }
+        },
+        "archivedby": {
+          "properties": {
+            "self": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "uri"
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "key": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "emailAddress": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "avatarUrls": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "48x48": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "24x24": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "16x16": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                },
+                "32x32": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "uri"
+                }
+              }
+            },
+            "displayName": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "active": {
+              "type": [
+                "null",
+                "boolean"
+              ]
+            },
+            "timeZone": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
         "description": {
           "type": [
             "null",
