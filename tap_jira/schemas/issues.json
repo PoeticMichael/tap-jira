@@ -159,6 +159,10 @@
           "format": "date-time"
         },
         "issuetype": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -207,6 +211,10 @@
           }
         },
         "project": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -278,6 +286,10 @@
           }
         },
         "resolution": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -320,6 +332,10 @@
           ]
         },
         "watches": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -343,6 +359,10 @@
           }
         },
         "priority": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -385,6 +405,10 @@
           }
         },
         "assignee": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -486,6 +510,10 @@
           }
         },
         "status": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -520,6 +548,10 @@
               ]
             },
             "statusCategory": {
+              "type": [
+                "null",
+                "object"
+              ],
               "properties": {
                 "self": {
                   "type": [
@@ -570,6 +602,10 @@
           ]
         },
         "creator": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -671,6 +707,10 @@
           }
         },
         "reporter": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -760,6 +800,10 @@
           ]
         },
         "votes": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
@@ -783,6 +827,10 @@
           }
         },
         "archivedby": {
+          "type": [
+            "null",
+            "object"
+          ],
           "properties": {
             "self": {
               "type": [
