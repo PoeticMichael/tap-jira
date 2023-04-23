@@ -629,7 +629,7 @@
                     "string"
                   ],
                   "format": "uri"
-                },
+                }
               },
               "displayName": {
                 "type": [
