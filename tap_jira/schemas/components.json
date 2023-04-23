@@ -324,6 +324,18 @@
             "string"
           ]
         },
+        "key": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "avatarUrls": {
           "type": [
             "null",
@@ -509,6 +521,12 @@
           ]
         }
       }
+    },
+    "archived": {
+      "type": [
+        "null",
+        "boolean"
+      ]
     }
   }
 }
