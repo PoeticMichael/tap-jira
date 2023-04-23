@@ -325,6 +325,12 @@
         "null",
         "string"
       ]
+    },
+    "archived": {
+      "type": [
+        "null",
+        "boolean"
+      ]
     }
   },
   "definitions": {
